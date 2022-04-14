@@ -27,4 +27,13 @@ public class Interface {
         return userDouble;
     }
 
+    public static void printMenu() {
+        System.out.println("Escolha uma opção: ");
+        System.out.println("0) Sair");
+        System.out.println("1) Cadastrar conta");
+        System.out.println("2) Depositar");
+        System.out.println("3) Sacar");
+        System.out.println("4) Mostrar contas");
+    }
+
 }
